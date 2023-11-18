@@ -40,6 +40,7 @@ function KanbanBoard() {
       })
       .catch(err => console.log('Error adding task', err));
   }
+  //delete func
   const DeleteTask = (taskId) => {
     axios.delete(`http://localhost:3000/todos/${taskId}`)
       .then(() => {
@@ -47,6 +48,7 @@ function KanbanBoard() {
       })
       .catch(err => console.log('Error deleting task', err));
   }
+  //changing status func
   const EditStatus = (taskId, formData) => {
     axios.put(`http://localhost:3000/todos/${taskId}`, formData, {headers: {
         'content-type': 'application/json'

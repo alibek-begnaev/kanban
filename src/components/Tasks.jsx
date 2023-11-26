@@ -39,6 +39,9 @@ function Tasks(props){
                     <MenuItem value="todo">To do</MenuItem>
                     <MenuItem value="inProgress">In Progress</MenuItem>
                     <MenuItem value="done">Done</MenuItem>
+                    <MenuItem value="todo1">To do</MenuItem>
+                    <MenuItem value="inProgress1">In Progress</MenuItem>
+                    <MenuItem value="done1">Done</MenuItem>
                     </Select>
       </FormControl>
             </div>

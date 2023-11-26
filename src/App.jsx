@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Kanban Board</h1>
+        <h1>Kanban Board change</h1>
       </header>
       <KanbanBoard />
     </div>

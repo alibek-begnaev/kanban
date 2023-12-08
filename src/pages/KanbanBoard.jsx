@@ -157,12 +157,12 @@ function KanbanBoard() {
         </StrictModeDroppable>
         </ThemeProvider>
       
-      {/* <form onSubmit={AddTask}>
+      <form onSubmit={AddTask}>
         <input type="text" name="title" placeholder="Title" required />
         <textarea name="description" placeholder="Description" required></textarea>
         <input type="file" name="attachment" />
         <button type="submit">Add Task</button>
-      </form> */}
+      </form>
         </DragDropContext>
     </div>
   );
